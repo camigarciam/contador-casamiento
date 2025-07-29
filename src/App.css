@@ -1,46 +1,98 @@
-.App {
+/* Fuente principal */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400&display=swap');
+
+body {
+  background-color: #f9f0ff; /* Lila muy claro */
+  color: #5d3a9b; /* Lila oscuro */
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor principal */
+.countdown-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Títulos */
+.countdown-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: #6a5acd; /* Lila azulado */
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Fecha del evento */
+.event-date {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  margin: 2rem 0;
+  color: #9370db; /* Lila medio */
 }
 
-.App-header {
-  background-color: white;
-  min-height: 100vh;
+.event-date span {
+  display: block;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #5d3a9b;
+}
+
+/* Contador */
+.countdown-grid {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.countdown-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  min-width: 80px;
+  box-shadow: 0 5px 15px rgba(93, 58, 155, 0.1);
+}
+
+.countdown-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #5d3a9b;
+}
+
+.countdown-label {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #9370db;
+}
+
+/* Detalles del evento */
+.event-details {
+  margin-top: 3rem;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Botón principal */
+.elegant-button {
+  background: linear-gradient(135deg, #8a2be2 0%, #9370db 100%);
   color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+  font-family: 'Playfair Display', serif;
+  box-shadow: 0 5px 15px rgba(147, 112, 219, 0.4);
+  transition: all 0.3s ease;
+  margin-top: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.botones{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-top: 2rem;
+.elegant-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(147, 112, 219, 0.6);
 }

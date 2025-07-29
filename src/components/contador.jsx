@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Components.css'; // Asegúrate de tener un archivo CSS para estilos
 import InvitationCard from './InvitationCard';
+import BotonConfirmacion from './BotonConfirmacion';
 
 
 const Contador = () => {
@@ -57,6 +58,7 @@ const Contador = () => {
         </div>
       </div>
       <InvitationCard />
+    <BotonConfirmacion  />
       <div className="ornament"></div> {/* Decoración elegante */}
     </div>
   );
