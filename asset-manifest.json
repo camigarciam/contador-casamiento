@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/contador-casamiento/static/css/main.5beb6c6f.css",
-    "main.js": "/contador-casamiento/static/js/main.e9f5ef30.js",
+    "main.css": "/contador-casamiento/static/css/main.a1193cbb.css",
+    "main.js": "/contador-casamiento/static/js/main.3b8dd9f9.js",
     "static/js/453.67a52319.chunk.js": "/contador-casamiento/static/js/453.67a52319.chunk.js",
     "static/media/logo.svg": "/contador-casamiento/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/contador-casamiento/index.html",
-    "main.5beb6c6f.css.map": "/contador-casamiento/static/css/main.5beb6c6f.css.map",
-    "main.e9f5ef30.js.map": "/contador-casamiento/static/js/main.e9f5ef30.js.map",
+    "main.a1193cbb.css.map": "/contador-casamiento/static/css/main.a1193cbb.css.map",
+    "main.3b8dd9f9.js.map": "/contador-casamiento/static/js/main.3b8dd9f9.js.map",
     "453.67a52319.chunk.js.map": "/contador-casamiento/static/js/453.67a52319.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5beb6c6f.css",
-    "static/js/main.e9f5ef30.js"
+    "static/css/main.a1193cbb.css",
+    "static/js/main.3b8dd9f9.js"
   ]
 }
